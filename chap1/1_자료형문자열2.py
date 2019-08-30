@@ -1,4 +1,5 @@
-s = "abcdefg"print(s)
+s = "abcdefg"
+print(s)
 # (3 + 1)번째
 print(s[3])
 # 0번째 부터 (2-1)번째 까지
