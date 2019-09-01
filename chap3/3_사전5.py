@@ -1,0 +1,10 @@
+dic = {2015123: "Alice", 2015200: "Bob", "KMU": "JeongReung"}
+for key in dic:
+    print(key, "'s value is ", dic[key])
+print()
+for key, value in dic.items():
+    print(key, "'s value is ", value)
+if 2017100 in dic:
+    print(dic[2017100])
+else:
+    print("key error")
